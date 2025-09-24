@@ -13,8 +13,13 @@ int main() {
 	scanf("%d", &n3);
 	
 	if (n1 == n2 && n1 == n3) {
-		printf("Triângulo Equilátero");
+		printf("Triângulo Equilátero\n");
 	}
-	
+	if (n1 == n2 || n1 == n3) {
+		printf("Triângulo Isócele\n");
+	}
+	if (n1 != n2 && n1 != n3) {
+		printf("Triângulo Escaleno\n");
+	}
 	return 0;
 }
