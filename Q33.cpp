@@ -12,7 +12,6 @@ int main () {
 			j++;
 			s += i;
 			m = s / j;
-			
 		}
 	}
 	printf("A média aritmética dos números pares entre 13 e 73 é %.2f\n", m);
